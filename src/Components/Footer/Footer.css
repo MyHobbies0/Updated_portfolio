@@ -1,0 +1,9 @@
+.footer {
+  text-align: center;
+  color: var(--clr-primary);
+  padding-bottom: 2em;
+}
+._hart_sym{
+  color: red;
+  font-size: 25px;
+}
