@@ -22,7 +22,7 @@ export const Techstacks = () => {
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
-        <div>
+          <div>
             <SiJava />
             <h5>Java</h5>
           </div>

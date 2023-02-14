@@ -51,7 +51,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://discovery-plus.vercel.app/"
+                  href="https://discoveryclone.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -83,6 +83,7 @@ export const Projects = () => {
                 />
               </div>
             </div>
+            
             <div className="project_information" data-aos="fade-right">
               <h2>Alibaba Clone</h2>
               <p>
