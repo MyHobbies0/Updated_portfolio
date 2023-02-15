@@ -68,6 +68,9 @@
   color: var(--clr-primary);
   transition: all 0.2s ease-in-out;
 }
+.section{
+  margin-top: 7rem;
+}
 
 .project_information > div:nth-child(3) > svg:hover {
   font-size: 3.3em;

@@ -51,6 +51,10 @@ export const Techstacks = () => {
             <h5>Nodejs</h5>
           </div>
           <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+          <div>
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>

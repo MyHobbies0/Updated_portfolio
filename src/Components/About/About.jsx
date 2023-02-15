@@ -20,7 +20,8 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
+              Strong problem-solving skills and ability to learn new technologies quickly. Seeking an opportunity to work 
+          in a dynamic and collaborative team where I can leverage my skills and gain further experience in full-stack web development."
         </p>
         <div className="about__contact center">
           <a
