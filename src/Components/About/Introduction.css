@@ -24,15 +24,52 @@
   border: 2px solid rgb(106, 104, 104);
  
 }
-.introduction_logocontainer > img:hover {
-  width: 45%;
+/* .introduction_logocontainer > img:hover {
+  width: 50%;
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
   transform-box: stroke-box;
   transition: 2ms;
   animation-delay: 5ms;
+} */
+/* styleing image */
+.image-container {
+  position: relative;
+  width: 50%; /* set width and height of container */
+  height: 90%;
+  border-radius: 50%;
+  overflow: hidden;
 }
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* this will auto crop the image to fit the container */
+  transition: transform 0.3s ease-out;
+}
+
+.overlay {
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.image-container:hover .image {
+  transform: scale(1.1); /* increase image size on hover */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* show overlay on hover */
+}
+
 
 .introduction_datacontainer {
   flex-basis: 55%;
