@@ -99,7 +99,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://velvety-fox-e0a352.netlify.app/"
+                  href="https://boisterous-mandazi-090b2c.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -168,7 +168,7 @@ export const Projects = () => {
           </div>
         </div>
 {/* Youtube */}
-        <div className="projects_container">
+        {/* <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
@@ -212,7 +212,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

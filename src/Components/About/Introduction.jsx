@@ -27,8 +27,7 @@ export const Introduction = () => {
               <h4>
                 Hi Everyone, I am{" "}
                 <span className="different">Irshad Alam </span> from{" "}
-                Hands-on experience building web applications as part of academic projects,
-             with a focus on responsive design and user experience.
+                from jharkhand, i have completed my bachelor's degree in physics, during 2022. Apart of this i have 
               Strong problem-solving skills and ability to learn new technologies quickly. Seeking an opportunity to work 
           in a dynamic and collaborative team where I can leverage my skills and gain further experience in full-stack web development
 
