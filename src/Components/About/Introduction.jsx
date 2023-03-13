@@ -27,7 +27,7 @@ export const Introduction = () => {
               <h4>
                 Hi Everyone, I am{" "}
                 <span className="different">Irshad Alam </span> from{" "}
-                from jharkhand, i have completed my bachelor's degree in physics, during 2022. Apart of this i have 
+                from Jharkhand, I have completed my bachelor's degree in physics, in 2022. Apart from this, I have 
               Strong problem-solving skills and ability to learn new technologies quickly. Seeking an opportunity to work 
           in a dynamic and collaborative team where I can leverage my skills and gain further experience in full-stack web development
 
