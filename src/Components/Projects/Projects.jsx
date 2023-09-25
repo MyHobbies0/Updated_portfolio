@@ -11,7 +11,9 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiJavascript,
-  SiTailwindcss
+  SiTailwindcss,
+  SiReact,
+  SiRedux
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -116,6 +118,53 @@ export const Projects = () => {
                     View Code
                   </span>
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="./unplash.png"
+                  alt="unplash"
+                />
+              </div>
+            </div>
+            
+            <div className="project_information" data-aos="fade-right">
+              <h2>Unsplash</h2>
+              <p>
+              The features of this project include the ability for users to scroll infinitely with a smooth scrolling feature.
+               Additionally, users can search for images by entering the name of the object
+              </p>
+              <div>
+                <SiJavascript />
+                <SiReact />
+                <SiRedux />
+                <DiCss3/>
+              </div>
+              <div>
+                <a
+                  href="https://unplash.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                {/* <a
+                  href="https://github.com/Md-Irshad-Alam/Alibaba_Clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a> */}
               </div>
             </div>
           </div>
