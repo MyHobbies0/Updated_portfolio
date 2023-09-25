@@ -1,0 +1,106 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(#021027, #000000);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Variables */
+:root {
+  --particle-width: 10px;
+  --particle-num: 200;
+  --particle-color: hsl(180, 100%, 80%);
+}
+
+/* .circle-container */
+.circle-container {
+  position: absolute;
+  transform: translateY(-10vh);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* .circle */
+.circle-container .circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  background-image: radial-gradient(
+    var(--particle-color),
+    var(--particle-color) 10%,
+    hsla(180, 100%, 80%, 0) 56%
+  );
+  animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+}
+
+/* Keyframes */
+@keyframes fade-frames {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-frames {
+  0% {
+    transform: scale3d(0.4, 0.4, 1);
+  }
+  50% {
+    transform: scale3d(2.2, 2.2, 1);
+  }
+  100% {
+    transform: scale3d(0.4, 0.4, 1);
+  }
+}
+
+/* Loop to generate particles */
+@for $i from 1 through var(--particle-num) {
+  .circle-container:nth-child(#{$i}) {
+    --circle-size: calc(random(var(--particle-width)) * 1px);
+    width: var(--circle-size);
+    height: var(--circle-size);
+    
+    --start-position-y: calc(random(10) + 100);
+    --frames-name: "move-frames-#{$i}";
+    --move-duration: calc(7000ms + random(4000ms));
+    
+    animation-name: var(--frames-name);
+    animation-duration: var(--move-duration);
+    animation-delay: calc(random(11000ms));
+  }
+
+  @keyframes var(--frames-name) {
+    from {
+      transform: translate3d(
+        calc(random(100vw)),
+        calc(var(--start-position-y) + 100vh),
+        0
+      );
+    }
+    
+    to {
+      transform: translate3d(
+        calc(random(100vw)),
+        calc(-1 * var(--start-position-y) - random(30vh)),
+        0
+      );
+    }
+  }
+  
+  .circle-container .circle {
+    animation-delay: calc(random(4000ms));
+  }
+}
