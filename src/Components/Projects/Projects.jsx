@@ -39,8 +39,14 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Discovery Plus</h2>
               <p>
-              Discovery+ is an American streaming service owned by Warner Bros,
-              Designed all the features & functionalities for the front end Bachk End  of the website to enhance the user experience. 
+            
+              Passwords hashed for 75% reduced guessing risk
+              Added security to prevent unauthorized access.
+              <br />
+              Manual and voice search for efficient user experience.
+              Voice search reduces 30% of the user’s time.
+             <br />
+              Seamless in-platform video playback
              
               </p>
               <div>
@@ -89,9 +95,14 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Alibaba Clone</h2>
               <p>
-               Alibaba Group Holding Limited, also known as Alibaba, is a Chinese multinational technology company specializing
-                in e-commerce, retail,
-                In this project you can search product , short product , add to cart, checkout and many more. You can do in this project
+    
+              Secure Login with user credentials
+              <br />
+              Users can search for products by typing queries
+              <br />
+              Users can add multiple products to the cart
+              <br />
+              Sort the Product based on category and price
               </p>
               <div>
                 <SiJavascript />
