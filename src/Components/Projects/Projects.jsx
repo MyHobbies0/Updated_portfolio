@@ -112,7 +112,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://alibaba-clone.vercel.app/"
+                  href="https://main--alibaba-irs-clone.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
