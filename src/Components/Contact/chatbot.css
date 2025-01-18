@@ -104,11 +104,12 @@ button.send-button:hover {
 .suggestions-container {
   background: #232635;
   color: rgb(172, 199, 202);
-  border: 1px solid #63acb6;
+  border: 1px solid #c1c1c2;
   border-radius: 5px;
   max-height: 200px;
   overflow-y: scroll;
-  width: calc(40% - 20px);
+  
+  width: calc(60% - 20px);
   z-index: 10;
 
 }
