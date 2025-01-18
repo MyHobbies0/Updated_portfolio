@@ -32,8 +32,8 @@ export default function App() {
           <Projects />
         </section>
         <section id="#contact">
-          <Contact />
-          <ChatBotForm/>
+        <Contact />
+        <ChatBotForm/>
         </section>
       
       </main>

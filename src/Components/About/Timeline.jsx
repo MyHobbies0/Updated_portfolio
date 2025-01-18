@@ -94,7 +94,7 @@ export const Timeline = () => {
               Vatech Solution 
             </h4>
             <p data-aos="fade-right">
-            I joined Vatech Solution as a mern stack developer intern, and contributed to several real-world projects. It was a valuable experience, and I learned a great deal from my colleagues. </p>
+            I joined Vatech Solution as a mern stack developer intern, and contributed to several real-world projects. It was a valuable experience </p>
         </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -116,22 +116,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+             Full Stack Web Developer Bootcamp
             </h3> 
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Masai School
             </h4>
             <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Software Development
-              and Data Structures. Also learned many soft skills in the process.
+            Built web applications using React.js, Next.js, Node.js, and Java, with 1,000+ hours of MERN stack training, creating RESTful APIs and improving performance.
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            date={"May 2019 - August 2022"}
+            date={"Jun 2022 - August 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,

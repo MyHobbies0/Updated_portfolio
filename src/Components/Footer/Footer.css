@@ -2,6 +2,21 @@
   text-align: center;
   color: var(--clr-primary);
   padding-bottom: 2em;
+ 
+}
+.fotterSections{
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  column-gap: 20px;
+  justify-content: center;
+}
+.fotterSections svg {
+  font-size: 2em;
+  transition: all 0.5s ease-in-out 0s;
+  color: var(--clr-primary);
 }
 ._hart_sym{
   color: red;
