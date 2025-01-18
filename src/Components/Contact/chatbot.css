@@ -1,0 +1,125 @@
+.chat-bot {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  border: 2px solid rgb(188 206 251 );
+  border-radius: 8px;
+  overflow: hidden;
+  background: #23283e;
+  position: sticky;
+  right: 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.chat-box {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #2e2b3d; /* Dark background for the chat area */
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 15px;
+  word-wrap: break-word;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.message.user {
+  align-self: flex-start; /* Align sent messages to the right */
+  background: #8bd88b; /* Light green for sent messages */
+  text-align: right;
+  color:rgb(20, 15, 15);
+  width: 50%;
+  float: right;
+  margin-bottom: 0.5rem;
+  margin-right: 1em;
+
+ 
+
+}
+
+.message.bot {
+  align-self: flex-end; /* Align received messages to the left */
+  background: #668bd1; /* Light blue for received messages */
+  text-align: left;
+  color: white; /* Ensure text is visible on blue background */
+  width: 50%;
+  float: left;
+  margin-top: 0.5rem;
+  margin-left: 1em;
+
+}
+
+.double-tick {
+  display: inline-block;
+  color: green;
+  margin-right: 5px;
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+  background: #fff; /* White background for the input area */
+  border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  border: 1px solid #858585;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  color: rgba(22, 22, 22, 0.705);
+}
+
+button.send-button {
+  background: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.send-button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+.suggestions-container {
+  background: #525252;
+  border: 1px solid #63acb6;
+  border-radius: 5px;
+  margin-top: 5px;
+  max-height: 150px;
+  min-height: 100px;
+  margin-bottom: 5em;
+  overflow-y: auto;
+  width: calc(40% - 20px);
+
+  z-index: 10;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background: #007bff;
+  color: #fff;
+}

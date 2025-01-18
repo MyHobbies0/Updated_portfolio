@@ -24,9 +24,10 @@ export const Github = () => {
           username="Md-Irshad-Alam"
           blockSize={15}
           blockMargin={5}
-          theme={themename}
+          theme={colourTheme}
           fontSize={16}
         />
+         
       </div>
     </>
   );

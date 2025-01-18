@@ -11,6 +11,7 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import Particle from "./Components/particle/Particle";
+import ChatBotForm from "./Components/Contact/ChatBotForm";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -32,6 +33,7 @@ export default function App() {
         </section>
         <section id="#contact">
           <Contact />
+          <ChatBotForm/>
         </section>
       
       </main>

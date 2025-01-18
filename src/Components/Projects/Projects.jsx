@@ -80,7 +80,52 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="./storeapp.png"
+                  alt="store management"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Store Management</h2>
+              <p>
+              This web application for footwear sellers to manage inventory, products, and sales. Features include product management, inventory tracking with low-stock alerts, real-time store availability, 
+              </p>
+              <div>
+              <FaReact />
+                <SiCss3/>
+                <SiExpress/>
+                <SiMongodb/>
+                <SiChakraui/>
+                <SiTailwindcss/>
+              </div>
+              <div>
+                <a
+                  href="https://storefrontend-sage.vercel.app/auth/register"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Md-Irshad-Alam/storefrontend/tree/main/src"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -181,98 +226,10 @@ export const Projects = () => {
           </div>
         </div>
 {/* project -pharmeasy */}
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="./pharmEasy.png"
-                  alt="pharmeasy"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>Amazon Clone</h2>
-              <p>
-              PharmEasy is an Indian e-pharmacy company that sells medicines, diagnostics and telehealth .
-              In this project you can Login , register, Add to card product , Buy product, Filter the product buy price or location etc.... 
-              </p>
-              <div>
-                <IoLogoJavascript />
-                <SiHtml5 />
-                <SiCss3 />
-                <IoServer />
-                <SiHeroku />
-              </div>
-              <div>
-                <a
-                  href="https://bespoke-jalebi-440ea8.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/Md-Irshad-Alam/pharmEasy_clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+       
+        
 {/* Youtube */}
-        {/* <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="./Youtube.png"
-                  alt="ESPN"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>YouTube</h2>
-              <p>
-              YouTube is a global online video sharing and social media platform , In this project you can watch the the real video , 
-              search video, short the video by length and  Popular video on Youtube etc...
-    
-              </p>
-              <div>
-                <SiHtml5 />
-                <SiCss3 />
-                <IoLogoJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://bespoke-jalebi-440ea8.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/Md-Irshad-Alam/YouTube_Clone"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
+       
       </div>
     </>
   );

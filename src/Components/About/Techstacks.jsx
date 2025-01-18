@@ -9,7 +9,9 @@ import {
   SiNpm,
   SiNetlify,
   SiJava,
-  SiTailwindcss
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -23,69 +25,64 @@ export const Techstacks = () => {
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
-            <SiJava />
+            <SiJava size={30} />
             <h5>Java</h5>
+            
           </div>
           <div>
-            <SiJavascript />
+            <SiJavascript size={30} />
             <h5>Javascript</h5>
           </div>
           <div>
-            <SiHtml5 />
-            <h5>HTML</h5>
+            <SiTypescript size={30} />
+            <h5>Typescript</h5>
           </div>
           <div>
-            <DiCss3 />
-            <h5>CSS</h5>
+            <SiHtml5 size={30} />
+            <h5>HTML&CSS</h5>
           </div>
           <div>
-            <SiTailwindcss />
-            <h5>Tailwind CSS</h5>
+            <FaReact size={30} />
+            <h5>React.js</h5>
           </div>
           <div>
-            <FaReact />
-            <h5>React</h5>
-          </div>
-          <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
-          </div>
-          <div>
-            <SiRedux />
+            <SiRedux size={30} />
             <h5>Redux</h5>
           </div>
           <div>
-            <DiMongodb />
-            <h5>MongoDb</h5>
+            <SiNextdotjs size={30} />
+            <h5>Next.js</h5>
           </div>
-
           <div>
-            <SiExpress />
+            <FaNodeJs size={30} />
+            <h5>Nodejs</h5>
+          </div>
+          <div>
+            <SiExpress size={30} />
             <h5>Express</h5>
           </div>
-
           <div>
-            <SiChakraui/>
-            <h5>Chakra Ui</h5>
+            <DiMongodb size={30} />
+            <h5>MongoDb</h5>
           </div>
           <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
-          </div>
-          <div>
-            <SiNpm/>
+            <SiNpm size={30}/>
             <h5>NPM</h5>
           </div>
           <div>
-            <SiNetlify />
+            <SiNetlify size={30} />
             <h5>Netlify</h5>
           </div>
           <div>
-            <VscGithub />
+            <VscGithub size={30} />
             <h5>Github</h5>
+          </div>
+          <div>
+            <SiTailwindcss size={30} />
+            <h5>Tailwind</h5>
           </div>
         </div>
       </div>
-    </>
+     </>
   );
 };

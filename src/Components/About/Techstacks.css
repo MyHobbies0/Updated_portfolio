@@ -5,37 +5,46 @@
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
-  height: 50vh;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  align-items: center;
+  row-gap: 2rem;
+  
+
+  
   /* max-height: 400px; */
 }
 
-.techsection > div {
-  width: 11%;
-  height: 16vh;
-  max-height: 140px;
+ .techsection > div {
+  width: 70px;
+  height: 60px;
   box-shadow: var(--shadow);
-  z-index: 1;
-  border-radius: 20px;
-  margin: 2.5%;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.5s ease 0s;
+  /* z-index: 1; */
+  
+  /* transition: all 0.5s ease 0s;
+   */
+   transition: transform 0.3s ease;
 }
-.techsection > div:hover {
+/* .techsection > div:hover {
   background-color: var(--clr-bg);
   overflow: hidden;
   transform: scale(1.08);
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border: 1px solid var(--clr-primary);
+}  */
+
+.techsection > div:hover {
+  background-color: var(--clr-bg);
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-color: gray; /* Make the border gray on hover */
+  animation: borderAnimation 3s linear forwards; /* Apply the animation */
 }
 
 .techsection > div > svg {
-  /* height: 50%;
-  width: 50%; */
+ 
   font-size: 8vh;
   color: var(--clr-primary);
 }
@@ -53,5 +62,38 @@
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
+  }
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-top-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+  }
+  25% {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+  }
+  50% {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+  }
+  75% {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  }
+  100% {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
   }
 }

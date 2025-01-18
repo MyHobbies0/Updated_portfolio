@@ -14,16 +14,17 @@ import { Techstacks } from "./Techstacks";
 export const About = () => {
   return (
     <>
+      
       <div className="about center">
         <h1 data-aos="fade-right">
           Hi, I am <span className="about__name">Irshad Alam</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
+        {/* <p className="about__desc" data-aos="fade-right">
               Strong problem-solving skills and ability to learn new technologies quickly. Seeking an opportunity to work 
           in a dynamic and collaborative team where I can leverage my skills and gain further experience in full-stack web development."
-        </p>
-        <div className="about__contact center">
+        </p> 
+       <div className="about__contact center">
           <a
             href="https://github.com/Md-Irshad-Alam"
             aria-label="github"
@@ -69,10 +70,13 @@ export const About = () => {
           >
             <DescriptionIcon />
           </a>
-        </div>
+        </div>  */}
       </div>
+     
+      <div>
       <Introduction />
       <Timeline />
+      </div>
       <section id="#skills">
         <Techstacks />
       </section>
