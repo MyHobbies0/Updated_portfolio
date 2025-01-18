@@ -15,12 +15,9 @@ export const About = () => {
   return (
     <>
       
-      <div className="about center">
-        <h1 data-aos="fade-right">
-          Hi, I am <span className="about__name">Irshad Alam</span>
-        </h1>
-        <Type />
-        {/* <p className="about__desc" data-aos="fade-right">
+     {/* <div className="about center">
+       
+         <p className="about__desc" data-aos="fade-right">
               Strong problem-solving skills and ability to learn new technologies quickly. Seeking an opportunity to work 
           in a dynamic and collaborative team where I can leverage my skills and gain further experience in full-stack web development."
         </p> 
@@ -70,16 +67,23 @@ export const About = () => {
           >
             <DescriptionIcon />
           </a>
-        </div>  */}
+        </div>  
       </div>
+        */}
+        <div style={{textAlign:'center', marginBottom:'-80px'}}>
+        <h1 data-aos="fade-right">
+          Hi, I am <span className="about__name">Irshad Alam</span>
+        </h1>
+        <Type />
+        </div>
      
-      <div>
-      <Introduction />
-      <Timeline />
+      <div id='#about'  >
+       <Introduction />
+       <Timeline />
       </div>
-      <section id="#skills">
+      <div id="#skills" style={{marginTop:'100px'}}>
         <Techstacks />
-      </section>
+      </div>
     </>
   );
 };

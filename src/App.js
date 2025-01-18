@@ -10,8 +10,8 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
-import Particle from "./Components/particle/Particle";
 import ChatBotForm from "./Components/Contact/ChatBotForm";
+import ParticleBackground from "./Components/particle/Particle";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -26,7 +26,9 @@ export default function App() {
       <main>
       
      
-        <About />
+       <section id='#about'>
+       <About />
+       </section>
         <Github />
         <section id="#projects">
           <Projects />
@@ -39,6 +41,7 @@ export default function App() {
       </main>
       <Footer />
       <ScrollToTop />
+     
     </div>
   );
 }

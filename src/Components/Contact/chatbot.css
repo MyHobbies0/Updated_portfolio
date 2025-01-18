@@ -1,7 +1,7 @@
 .chat-bot {
   font-family: Arial, sans-serif;
   margin: 20px auto;
-  border: 2px solid rgb(188 206 251 );
+  
   border-radius: 8px;
   width: 90%;
   overflow: hidden;
@@ -11,7 +11,7 @@
 }
 
 .chat-container {
-  
+  border: 2px solid rgb(188 206 251 );
   display: flex;
   flex-direction: column;
   height: 450px;
@@ -21,7 +21,7 @@
   flex-grow: 1;
   padding: 10px;
   overflow-y: auto;
-  background: #2e2b3d; /* Dark background for the chat area */
+  background: #2e2b3d; 
 }
 
 .message {
@@ -102,22 +102,21 @@ button.send-button:hover {
 }
 
 .suggestions-container {
-  background: #525252;
+  background: #232635;
+  color: rgb(172, 199, 202);
   border: 1px solid #63acb6;
   border-radius: 5px;
-  margin-top: 5px;
-  max-height: 150px;
-  min-height: 100px;
-  margin-bottom: 5em;
-  overflow-y: auto;
+  max-height: 200px;
+  overflow-y: scroll;
   width: calc(40% - 20px);
-
   z-index: 10;
+
 }
 
 .suggestion-item {
   padding: 10px;
   cursor: pointer;
+  border-bottom: 0.5px solid rgb(223, 223, 223);
 }
 
 .suggestion-item:hover {

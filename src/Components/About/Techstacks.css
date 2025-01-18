@@ -1,5 +1,6 @@
-.main {
-  margin-top: 1em;
+
+.mainTech {
+  margin-bottom: -100px;
 }
 .techsection {
   width: 100%;
@@ -10,6 +11,7 @@
   align-items: center;
   justify-content: center;
   row-gap: 2rem;
+ 
   
 
   

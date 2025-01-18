@@ -23,10 +23,8 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
-                <span className="different">Irshad Alam </span> from{" "}
-                from Jharkhand, I have completed my bachelor's degree in physics, in 2022. Apart from this, I have 
-              Strong problem-solving skills and ability to learn new technologies quickly. Seeking an opportunity to work 
-          in a dynamic and collaborative team where I can leverage my skills and gain further experience in full-stack web development
+                <span className="different">Irshad Alam </span> A
+                experienced Full Stack Developer with 2 years of expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) and additional proficiency in Next.js and Java. This includes 1 year of full-time professional experience and 1 year of intensive, hands-on training at Masai School Bootcamp. Skilled in building scalable, high-performance web applications and delivering efficient solutions for complex problems.
 
               </h4>
               <h4>

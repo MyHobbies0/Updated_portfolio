@@ -234,7 +234,9 @@ function ChatBotForm() {
         </div>
 
         {/* Suggestions dropdown */}
-        {suggestions.length > 0 && (
+        
+      </div>
+      {suggestions.length > 0 && (
           <div className="suggestions-container">
             {suggestions.map((suggestion, index) => (
               <div
@@ -247,7 +249,6 @@ function ChatBotForm() {
             ))}
           </div>
         )}
-      </div>
     </div>
   );
 }

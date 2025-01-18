@@ -71,7 +71,7 @@ export const Timeline = () => {
               margin:'auto'
               
             }}
-            contentArrowStyle={{ borderRight: "25px solid  rgb(33, 150, 243)", }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)", }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
@@ -130,7 +130,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            date={"Jun 2022 - August 2023"}
+            date={"Jun 2019 - August 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,

@@ -1,7 +1,12 @@
 .mainsection {
   width: 100%;
+  margin-bottom: -50px;
 }
 
+.section__title{
+  margin-bottom: 40px;
+  text-align: center;
+}
 
 
 .vertical-timeline-element-subtitle {
