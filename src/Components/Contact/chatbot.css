@@ -1,7 +1,7 @@
 .chat-bot {
   font-family: Arial, sans-serif;
   margin: 20px auto;
-  
+
   border-radius: 8px;
   width: 90%;
   overflow: hidden;
@@ -11,17 +11,19 @@
 }
 
 .chat-container {
-  border: 2px solid rgb(188 206 251 );
+  border: 2px solid rgb(188 206 251);
   display: flex;
   flex-direction: column;
   height: 450px;
+  border-radius: 15px;
 }
 
 .chat-box {
   flex-grow: 1;
   padding: 10px;
   overflow-y: auto;
-  background: #2e2b3d; 
+  background: #2e2b3d;
+  border-radius: 15px;
 }
 
 .message {
@@ -36,14 +38,11 @@
   align-self: flex-start; /* Align sent messages to the right */
   background: #8bd88b; /* Light green for sent messages */
   text-align: right;
-  color:rgb(20, 15, 15);
+  color: rgb(20, 15, 15);
   width: 50%;
   float: right;
   margin-bottom: 0.5rem;
   margin-right: 1em;
-
- 
-
 }
 
 .message.bot {
@@ -55,7 +54,6 @@
   float: left;
   margin-top: 0.5rem;
   margin-left: 1em;
-
 }
 
 .double-tick {
@@ -69,12 +67,13 @@
   padding: 10px;
   background: #fff; /* White background for the input area */
   border-top: 1px solid #ddd;
-  
+  /* border-radius: 15px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   width: 100%;
-  
 }
 
-input[type="text"] {
+input[type='text'] {
   flex-grow: 1;
   border: 1px solid #858585;
   border-radius: 5px;
@@ -108,10 +107,9 @@ button.send-button:hover {
   border-radius: 5px;
   max-height: 200px;
   overflow-y: scroll;
-  
+
   width: calc(60% - 20px);
   z-index: 10;
-
 }
 
 .suggestion-item {
