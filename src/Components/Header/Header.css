@@ -15,5 +15,10 @@
 @media (max-width: 600px) {
   .header {
     height: 6em;
+    /* display: flex;
+    align-items: center;
+    z-index: -999; */
+
+
   }
 }

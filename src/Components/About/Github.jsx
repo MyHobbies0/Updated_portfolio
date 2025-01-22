@@ -26,7 +26,7 @@ export const Github = () => {
           theme={colourTheme}
           fontSize={16}
         /> */}
-         <GitHubCalendar
+         <GitHubCalendar responsive={true}
           username='MdIrshadAlam'
           blockSize={15}
           blockMargin={5}
