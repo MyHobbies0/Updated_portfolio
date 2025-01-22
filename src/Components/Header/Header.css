@@ -21,4 +21,7 @@
 
 
   }
+  .header_name{
+    display: none;
+  }
 }
