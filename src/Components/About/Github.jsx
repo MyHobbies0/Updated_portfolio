@@ -27,7 +27,7 @@ export const Github = () => {
           fontSize={16}
         /> */}
          <GitHubCalendar responsive={true}
-          username='MdIrshadAlam'
+          username='md-irshad-alam'
           blockSize={15}
           blockMargin={5}
           // theme={colourTheme}
